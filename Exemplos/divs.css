@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+
+/*Todos os parágrafos dentro de uma div*/
+div p {
+    display: inline;
+}
+
+.div-block {
+    background-color: mediumpurple;
+    /*Block define a largura "100%" - padrão da div*/
+    display: block;
+}
+
+.div-inline {
+    background-color: powderblue;
+    /*
+    Inline define a largura de acordo com o conteúdo
+    Não aceita modificar autura e largura
+    */
+    display: inline;
+}
+
+.div-inline-block {
+    background-color: hotpink;
+    /*
+    INLINE-BLOCK= se ajusta ao conteudo podendo
+    Modifica a altura e largura
+     */
+    display: inline-block;
+    height: 80px;
+    width: 130px;
+
+    /*MARGIN: margem externa*/
+    /*CIMA,LADO/DIREITA, BAIXO E LADO/ESQUERDA*/
+    margin: 10px 5px 10px 5px;
+
+    /*PEDDING: margem inetrna */
+    padding: 10px;
+
+    /*Espressura /tipo /cor */
+    border: 5px solid steelblue;
+
+    /*BORDER-RADIUS= cantos arredondados*/
+    border-radius: 10px;
+}

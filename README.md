@@ -1,1 +1,1 @@
-Projeto, exercícos e exdmplos desenvolvidos durante o 1° semestre do curso do SENAI.
+Projeto, exercícos e exemplos desenvolvidos durante o 1° semestre do curso do SENAI.
